@@ -1,0 +1,45 @@
+{
+    "identity": "mainnet",
+    "name": "deMedallo Mainnet",
+    "state": {
+        "startingNonce": 0
+    },
+    "network": 67420,
+    "consensus": "cryptonight",
+    "genesis": {
+        "nonce": "0x0000000000000043",
+        "timestamp": "",
+        "parentHash": "",
+        "extraData": "",
+        "gasLimit": "0x03000000",
+        "difficulty": "0x000001",
+        "coinbase": "",
+        "alloc": {
+            "46fc274e69b2c7f40ec677883207a10fb414c068": {
+                "balance": "350000000000000000000000000"
+            }
+        }
+    },
+    "chainConfig": {
+        "forks": [
+            {
+                "name": "Diehard",
+                "block": 1,
+                "requiredHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "features": [
+                    {
+                        "id": "eip155",
+                        "options": {
+                            "chainID": 101
+                        }
+                    }
+                ]
+            }
+        ],
+        "badHashes": [
+        ]
+    },
+    "bootstrap": [
+        
+    ]
+}
